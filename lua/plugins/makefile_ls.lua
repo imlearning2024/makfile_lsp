@@ -1,9 +1,10 @@
 return {
+  name = "makefile_ls",
   dir = vim.fn.stdpath("config") .. "/lua/makefile_ls",
   ft = { "make" },
   dependencies = {
-    "hrsh7th/nvim-cmp", -- ensure cmp is available before using
-    "nvimtools/none-ls.nvim", -- ensure null-ls (now none-ls) is available
+    "hrsh7th/nvim-cmp",
+    "nvimtools/none-ls.nvim",
   },
   config = function()
     require("makefile_ls").setup()

@@ -11,7 +11,7 @@ Lazy.nvim:
 
 ```lua
 {
-  url = "https://github.com/<your-username>/makefile_ls.nvim",
+  url = "https://github.com/imlearning2024/makfile_lsp.git",
   ft = { "make" },
   config = function()
     require("makefile_ls").setup()
@@ -26,4 +26,5 @@ Lazy.nvim:
 
 ## Author
 
-Built with 💻 by [@<your-username>](https://github.com/<your-username>)
+Built with 💻 by [@imlearning2024](https://github.com/imlearning2024)
+Built with 💻 by [@Vatsalj17](https://github.com/Vatsalj17)
